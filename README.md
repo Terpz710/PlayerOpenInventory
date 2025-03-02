@@ -9,6 +9,6 @@ Listens for when a player opens their inventory. Not a container inventory but t
 use terpz710\playeropeninventory\event\PlayerOpenInventoryEvent;
 
 public function onPlayerOpenInventory(PlayerOpenInventoryEvent $event) : void{
-    $evenr->getPlayer()->sendMessage("You opened your inventory!");
+    $event->getPlayer()->sendMessage("You opened your inventory!");
 }
 ```
