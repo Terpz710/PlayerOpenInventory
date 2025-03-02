@@ -4,6 +4,7 @@ Listens for when a player opens their inventory. Not a container inventory but t
 **NOTE:** This event is **not** cancellable!
 
 # How to use
+**In your EventListener or whatever class you handle events:**
 ```php
 /* Import this class **/
 use terpz710\playeropeninventory\event\PlayerOpenInventoryEvent;
